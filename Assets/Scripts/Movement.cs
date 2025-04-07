@@ -28,4 +28,6 @@ public class Movement : MonoBehaviour
         transform.position += transform.up * direction2 * speed * Time.deltaTime;
 
     }
+
+
 }
