@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Knight : MonoBehaviour
 {
+    //HUZZAH
     SpriteRenderer sr;
     Animator animator;
     public float speed = 2;
