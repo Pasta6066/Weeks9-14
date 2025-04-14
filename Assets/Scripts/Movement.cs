@@ -9,6 +9,8 @@ public class Movement : MonoBehaviour
     public float direction;
     public float direction2;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,8 @@ public class Movement : MonoBehaviour
         transform.position += transform.up * direction2 * speed * Time.deltaTime;
 
     }
+
+
 
 
 }

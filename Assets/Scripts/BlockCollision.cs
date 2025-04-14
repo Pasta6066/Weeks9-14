@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlockCollision : MonoBehaviour
 {
+
     public GameObject block;
     public int rows = 6;
     public int columns  = 7;
@@ -19,7 +20,7 @@ public class BlockCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void gridSpawner()
