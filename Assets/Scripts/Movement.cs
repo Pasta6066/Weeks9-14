@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +30,10 @@ public class Movement : MonoBehaviour
         transform.position += transform.right * direction * speed * Time.deltaTime;
         transform.position += transform.up * direction2 * speed * Time.deltaTime;
 
+
+
     }
+
 
 
 
